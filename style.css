@@ -1,0 +1,207 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat' sans-serif;
+    overflow-x: hidden;
+    
+}
+
+.container {
+   margin: 0px 230px;
+  
+    
+  }
+
+nav { 
+    display: flex;
+    
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;  
+    width: 100%;
+    
+   
+    position: absolute;
+    z-index: 10;
+
+    
+} 
+nav  ul {
+    display: flex;
+    list-style: none;
+    
+    width: 30%;
+    
+   justify-content: space-between;
+   
+}
+
+nav .logo {
+    color: thistle;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+    cursor: pointer;
+    float: left;
+}
+ 
+ 
+nav ul li a {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 2px 10px;
+    line-height: 70px;
+    display: block;
+    
+}
+nav ul li a .login-nav {
+    
+    background-color: palegreen;
+}
+
+nav ul li a:hover {
+    color:white;
+    text-shadow: 1px  5px rgba(0,0,0,0.8);;
+    font-size: 17px ;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #d789d7;
+    
+}
+
+
+/* Hamburger Menu  animasi*/
+.menu-toggle span:nth-child(2) {
+    transform-origin: 0.0;
+}
+.menu-toggle span:nth-child(4){
+    transform-origin: 0.100% ;
+}
+
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+    
+    background-color: thistle;
+    transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+  
+    background-color: thistle;
+    transform: rotate(-45deg) translate(-1px,0px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+    opacity: 0;
+    transform: scale(0);
+}
+
+
+/* Hamburger Menu */
+.menu-toggle {
+ display: none;
+ flex-direction: column;
+ height: 20px;
+ justify-content: space-between;
+ position: relative;
+ z-index: 2;
+}
+
+.menu-toggle input {
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -5px ;
+    top: -3px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+.menu-toggle span {
+ display: block;
+ width:  28px;
+ height:3px;
+ background-color: thistle;
+ border-radius: 3px;
+ transition: all 0.5s;
+}
+
+
+
+/* landing page halaman awal */
+.top-wrapper {
+    
+    padding: 180px 0 100px 0;
+    background-image: url('img/landpage.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-size: 100%;
+    
+    
+  
+    color: white;
+    height: 900px;
+    
+  }
+  
+  .top-wrapper h1 {
+    width:auto; 
+    height:auto ;
+  
+    opacity: 0.9;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.8;
+    margin-bottom: 3px;
+  }
+  
+  .btn-wrapper {
+    text-align: left;
+    margin: 40px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 20px 0;
+  }
+  .facebook {
+      
+    background:#f39233;
+    color:white;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    
+    padding:10px 20px;
+    text-decoration:none;
+    font-family:sans-serif;
+    font-size:11pt;
+  }
+  .login-nav {
+    color:white;
+    opacity: 0.9;
+    border: 1px solid #f39233;
+    background-color: #f39233;
+    font-weight: 900;
+    border-radius: 0px 0px 10px 10px;
+    text-decoration:none;
+    font-family:sans-serif;
+    font-size:11pt;
+  } 
+  .card-menu {
+    width:auto; 
+    height:auto ;
+    display: flex ;
+    justify-content: center;
+      margin-top: 150px;
+      background-color: ;
+  }
+
+

@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <style>
+       
+        #wrapper {
+            position: relative;
+            width: 400px;
+            margin: auto;
+            border: 2px solid #E91E63;
+            border-radius: 25px 25px 0 0;
+        }
+        .overlay {
+            transition: background 0.5s ease;
+        }
+        #wrapper:hover .overlay {
+            display: block;
+            background: rgba(0, 0, 0, .3);
+        }
+        img {
+            width: 400px;
+            border-radius: 25px 25px 0 0;
+        }
+        h1 {
+            position: absolute;
+            width: 400px;
+            left: 0;
+            top: 120px;
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+            color: white;
+            z-index: 1;
+            transition: top .5s ease;
+        }
+        .content {
+            margin-top: -21px;
+            padding: 3px 0;
+            height: 50px;
+            color: white;
+            text-align: center;
+            background-color: #E91E63;
+        }
+        .content p {
+            border-radius: 50px;
+            background-color: white;
+            color: #E91E63;
+            line-height: 36px;
+        }
+        #wrapper:hover h1 {
+              top: 90px;
+        }
+        .btn {
+            position: absolute;
+            width: 400px;
+            left:0;
+            top: 180px;
+            text-align: center;
+            opacity: 0;
+            transition: opacity .35s ease;
+        }
+        .btn a:hover {
+            background-color: #E91E63;
+            color: white;
+            opacity: 0.7;
+        }
+        .btn a {
+            padding: 10px 50px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            border: solid 2px white;
+            z-index: 1;
+            border-radius: 50px;
+        }
+        #wrapper:hover .btn {
+              opacity: 1;
+        }
+
+            </style>
+        <body>
+           
+                <div id="wrapper">
+                  <img src="img/lol.jpeg"/>
+                      <h1>Look & Fell...</h1>
+                  <div class="overlay"></div>
+                  <div class="btn">
+                      <a href="https://www.dumetschool.com/blog/">SUBMIT</a>
+                  </div>
+                  <div class="content">
+                      <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+            
+        </body>
+    </head>
+</html>
