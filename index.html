@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
-<html lang="en">
 <head>
     
     <meta charset="utf-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <script src="
+http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>navbar</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -20,10 +21,10 @@
         </div>
       
             <ul class="nav-right">    
-                <li> <a href=""> Home</a> </li>
-                <li> <a href=""> Product</a> </li>
-                <li> <a href=""> Service</a> </li>
-                <li> <a href=""> Gallery</a> </li>
+                <li> <a href="#home"> Home</a> </li>
+                <li> <a href="#promo"> Promo</a> </li>
+                <li> <a href="#skill"> Service</a> </li>
+                <li> <a href="#service"> Gallery</a> </li>
                 <li> <a href="#" class="login-nav">Login</a> </li>    
             </ul>
       
@@ -39,11 +40,11 @@
     <!-- akhir navbar -->
 
     <!-- landing page halaman awal -->
-    <div class="top-wrapper" >
-        <div class="container">
+    <div class="top-wrapper" id="home">
+        <div class="container-land">
           <h1>Online learning</h1>
-          <h1>Platform.</h1>
-          <p>Ini adalah platform online untuk belajar ux ui</p>
+          <h1>Front-end Platform.</h1>
+          <p>Ayo belajar coding dan menambah pengetahuan</p>
           <p>Kami menawarkan lingkungan pembelajaran yang lengkap.</p>
           <div class="btn-wrapper">
          
@@ -53,45 +54,142 @@
           </div>
 
         </div>
-    <div class="card-menu">
-        <div id="wrapper">
-            <img src="img/lol.png"/>
-                <h3>User Interface</h3>
-            <div class="overlay"></div>
-            <div class="btn-sub">
-                <a href="">Pelajari</a>
+    </div>
+
+
+      <!-- Card menu -->
+
+      <!-- Main  -->
+      <div class="container" id="skill">
+          <div class="menu-pilihan">
+            <div class="explore">
+                <h1>Skill yang didapat</h1>
             </div>
-            <div class="content">
-                <p>mari kita belajar membuat tampilan website.</p>
+            <div class="pilihan-topic">
+                 <div class="topic">
+                    <img src="topic1.png"alt="">
+                     <h2>Coding</h2>
+                 </div>
+                 <div class="topic">
+                    <img src="topic2.png"alt="">
+                    <h2>Inovasi</h2>
+                 </div>
+                 <div class="topic">
+                    <img src="topic3.png"alt="">
+                    <h2>kreativitas</h2>
+                 </div>
+                 <div class="topic">
+                    <img src="topic4.png"alt="">
+                    <h2>insting</h2>
+                 </div>
+                 
+                 <div class="topic">
+                    <img src="topic5.png"alt="">
+                    <h2>Komunikasi</h2>
+                 </div>
+                 <div class="topic">
+                    <img src="topic6.png"alt="">
+                    <h2>Team-work</h2>
+                 </div>
+                 <div class="topic">
+                    <img src="topic7.png"alt="">
+                    <h2>mindset</h2>
+                 </div>
+                 <div class="topic">
+                    <img src="topic8.png"alt="">
+                    <h2>Networking</h2>
+                 </div>
             </div>
-        </div>
-        <div id="wrapper">
-            <img src="img/lol.png"/>
-                <h3>User Interface</h3>
-            <div class="overlay"></div>
-            <div class="btn-sub">
-                <a href="">Pelajari</a>
+        
+           
+            <div class="btn-about3">
+            <p><a href="#">View More Subjects</a></p>
             </div>
-            <div class="content">
-                <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+      </div>
+    <div class="about" id="halaman3"> 
+        <div class="menu-pilihan2">
+            <div class="about3-img">
+                <img src="about3.png"alt="">
             </div>
-        </div>
-        <div id="wrapper">
-            <img src="img/lol.png"/>
-                <h3>User Interface</h3>
-            <div class="overlay"></div>
-            <div class="btn-sub">
-                <a href="">Pelajari</a>
-            </div>
-            <div class="content">
-                <p>Lorem ipsum dolor sit amet.</p>
+                <div class="about3">
+                <h1>Belajar Bisa Dimana Saja </h1>
+                    <ul>
+                        <li>Belajar bisa dimana saja dan kapan saja.</li><br>
+                        <li>Waktu belajar lebih flexsibel kapan saja.</li><br>
+                        <li>Biaya lebih hemat dibandingkan kursus lain!.<br>.</li><br>
+                    </ul>
+                </div>
             </div>
         </div>
     
+    <div class="team-founder" id="service">
+        <div class="team-title">
+            <h1>Pengajar berpengalaman</h1>
+        </div>
+        <div class="team-img">
+            <div class="team1">
+                <img src="team1.png">
+                <h2 class="name">Mr.Samuel</h2>
+                <p>The automated process all your<br> website tasks.</p>
+            </div>
+            <div class="team1">
+                <img src="team2.png">
+                <h2 class="name">Mr.Reyhan</h2>
+                <p>The automated process all your<br> website tasks.</p>
+            </div>
+            <div class="team1">
+                <img src="team3.png">
+                <h2 class="name">Mr.Kamil</h2>
+                <p>The automated process all your<br> website tasks.</p>
+            </div>
+            <div class="team1">
+                <img src="team4.png">
+                <h2 class="name">Mr.Faiz</h2>
+                <p>The automated process all your<br> website tasks.</p>
+            </div>
+            <div class="team1">
+                <img src="team4.png">
+                <h2 class="name">Mr.Eric</h2>
+                <p>The automated process all your<br> website tasks.</p>
+            </div>
+        </div>
     </div>
-</div>
+        <div class="about2" id="promo">
+            <div class="about2-img">
+                <img class="img-about2" src="about2.png">
+            </div>
+            <div class="about2-text">
+                <h1>Daftar dan dapatkan potongan harga hingga <span>40%</span></h1>
+                <p>Dapatkan potongan harga hingga 40% untuk murid baru.</p>
+            <div class="btn-about2"> 
+                <p><a href="#">Daftar sekarang!</a></p>
+            </div>
+        </div>
+        </div>
+    </div>
 
-      <!-- Card menu -->
+
+    <footer>
+        <div class=left-footer>
+           <div class="container-footer">
+            <h1>Progate C06</h1>
+            
+             <p>Kelompok projek progate C6</p>
+           </div>
+          
+        </div>
+
+        <div class="right-footer">
+            <ul>
+                <li>Tentang Kami</li>
+                <li>Hubungi Kami</li>
+                <li>Bantuan</li>
+            </ul>
+        </div>
+
+        
+      </footer>
 
 
 
